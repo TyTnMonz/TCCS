@@ -36,7 +36,7 @@ Userscripts are small programs that change the layout of pages, add or remove fe
 
 1. Install the Extension from Google Web Store
 2. Create a new Script
-3. Copy & paste the whole content of the content.js file into the script, under the **Editor** tab, inside the main function
+3. Copy & paste the whole content of the content.js file into the script, under the **Editor** tab, inside the main function<br />
 [![tampermonkey.png](https://i.postimg.cc/mr3MsRZ9/tampermonkey.png)](https://postimg.cc/f3LkcG9W)
 4. Switch to **Settings** tab and find **_Includes/Excludes_** section.
 5. Add the base URL __https://\*.teachable.com/\*__ into the **_User matches_** textarea to bind the script to the Teachable platform only.<br /><br />
