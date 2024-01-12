@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Teachable Change Content Size",
     "description": "Add some extra options to allow to resize the content box",
-    "version": "1.0",
+    "version": "1.1",
 	"author": "TyTnMonz",
 	"icons": {
 		"128": "icon.png"
@@ -14,7 +14,7 @@
     ],
 	"content_scripts": [
 		{
-			"matches": ["https://fabiobiondi.teachable.com/courses/*"],
+			"matches": ["https://*.teachable.com/courses/*"],
 			"js": ["content.js"]
 		}
 	]
