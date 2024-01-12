@@ -26,15 +26,15 @@ Technically it could be applyed on lower screen resolution also, but it loses a 
 
 ## How to use it
 
-The script is desgined to be used on Google Chrome with or as an Extension, or on other Browser which can use Extension.
+The script is desgined to be used on Google Chrome with or as an Extension, or on other Browser which can use Extensions.
 
 ### Tampermonkey
-[Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) is a Google Chrome extension which allows users to use userscripts.
+[Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) is a Google Chrome extension which allows users to use userscripts.<br />
 Userscripts are small programs that change the layout of pages, add or remove features, and automate actions to personalize your web experience.
 
 1. Install the Extension from Google Web Store
 2. Create a new Script
-3. Copy & paste the whole content of the content.js file into the script, under the **Editor** tab, inside the main function<br />
+3. Copy & paste the whole content of the **content.js** file into the script, under the **Editor** tab, inside the main function<br />
 [![tampermonkey.png](https://i.postimg.cc/mr3MsRZ9/tampermonkey.png)](https://postimg.cc/f3LkcG9W)
 4. Switch to **Settings** tab and find **_Includes/Excludes_** section.
 5. Add the base URL __https://\*.teachable.com/\*__ into the **_User matches_** textarea to bind the script to the Teachable platform only.<br /><br />
