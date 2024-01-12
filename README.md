@@ -6,7 +6,7 @@ A small script used to change the Default Teachable platform UI adding options t
 
 [![extension.png](https://i.postimg.cc/qM94kTS1/extension.png)](https://postimg.cc/PPzB4BtD)
 
-The Teachable platform allows the Contect Creator to choose between 2 different options about the content size:
+The Teachable platform allows the Contect Creators to choose between 2 different options about the content size:
 
  - Block Content Size
  - Unblock Content Size
@@ -15,16 +15,14 @@ The first option lock the Content size to 840px width while the second one makes
 
 Although it is a choise of the Content Creator, when the first option is selected, the Content may result too small to be readable on small size monitor ( ex. on a 13" laptop or tablet ) forcing users to set the view to Full Screen to be able to follow the content of a Video course for example.
 
-The script is optimized to be used on Full HD screen, but it can be used on greater screen resolution also. 
-Technically it could be applyed on lower screen resolution also, but it loses a bit of sense.
-
-It adds a dropdown menu inside the Teachable Navigation Bar with the options to change the content size choosing between 4 different options:
+The script adds a dropdown menu inside the Teachable Navigation Bar with the options to change the content size choosing between 4 different options:
 - **Small** : sets the max-width of the content to 840px ( the default value for Teachable )
 - **Medium** : increse the default max-width by 30% ( 1092px )
 - **Big** : increse the default max-width by 80% ( 1512px <sup>1</sup> )
 - **Full Screen** : set the Full Screen mode on the iFrame with the video inside
 
-<sup>1. Optimized for Full HD screen</sup>
+<sup>1. The script is optimized to be used on Full HD screen, but it can be used on greater screen resolution also. 
+Technically it could be applyed on lower screen resolution also, but it loses a bit of sense.</sup>
 
 ## How to use it
 
@@ -36,7 +34,7 @@ Userscripts are small programs that change the layout of pages, add or remove fe
 
 1. Install the Extension from Google Web Store
 2. Create a new Script
-3. Copy & paste the whole content of the content.js file into the script, under the **Editor** tab, inside the main function
+3. Copy & paste the whole content of the content.js file into the script, under the **Editor** tab, inside the main function<br />
 [![tampermonkey.png](https://i.postimg.cc/mr3MsRZ9/tampermonkey.png)](https://postimg.cc/f3LkcG9W)
 4. Switch to **Settings** tab and find **_Includes/Excludes_** section.
 5. Add the base URL __https://\*.teachable.com/\*__ into the **_User matches_** textarea to bind the script to the Teachable platform only.<br /><br />
