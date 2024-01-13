@@ -1,5 +1,5 @@
 # TCCS
-## Teachable Content Change Size
+## Teachable Change Content Size
 A small script used to change the Default Teachable platform UI adding options to change the size of the Content.
 
 ## Description
